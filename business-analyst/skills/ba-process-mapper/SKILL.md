@@ -28,7 +28,7 @@ input types are supported; a findings document is not required.
    - Which actor/role performs each step is identifiable (for swimlane-style attribution
      in the step list).
 
-   If any of these are unclear in a way that would change the shape of the map, ask
+   If 1-3 of these are unclear in a way that would change the shape of the map, ask
    targeted clarifying questions before proceeding — do not invent step order, branches,
    or actors that weren't stated or implied.
 
