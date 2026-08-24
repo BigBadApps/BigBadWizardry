@@ -1,0 +1,10 @@
+{
+  "name": "business-analyst",
+  "description": "Skills that help Business Analysts turn stakeholder interviews, requirements, and process descriptions into structured deliverables: findings documents, Agile user stories, and process maps.",
+  "version": "0.1.0",
+  "skills": [
+    "skills/ba-interview-synthesis",
+    "skills/ba-user-story-writer",
+    "skills/ba-process-mapper"
+  ]
+}
