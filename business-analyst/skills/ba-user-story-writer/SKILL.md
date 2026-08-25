@@ -21,7 +21,10 @@ supported; a findings document is not required.
    - A findings document (look for its `## Requirements` section), or
    - Raw requirement text pasted directly, in any form (bullet list, prose, etc).
 
-   If neither has been provided, ask for it.
+   If neither has been provided, ask for it. If the input provided is empty, or does not
+   contain usable requirement content (e.g. a blank file, an illegible image, a paste
+   that isn't a requirement at all), say so plainly and ask the user to provide it again —
+   do not attempt to produce output from it.
 
 2. **Check for gaps per requirement before writing stories.** For each requirement, check
    whether it's clear who the actor/role is, what the goal is, and what benefit it serves.

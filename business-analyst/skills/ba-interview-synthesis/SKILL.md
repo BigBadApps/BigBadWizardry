@@ -18,7 +18,10 @@ wants it turned into an organized findings document.
 ## Process
 
 1. **Get the transcript.** Accept it as pasted text or an uploaded file. If no transcript
-   has been provided yet, ask for it.
+   has been provided yet, ask for it. If the input provided is empty, or does not contain
+   usable transcript content (e.g. a blank file, an image with no readable text, a paste
+   that isn't a transcript at all), say so plainly and ask the user to provide it again —
+   do not attempt to produce output from it.
 
 2. **Check for gaps before extracting.** Before producing output, check whether:
    - Speaker roles/identities are clear (who said what, and their role/title).
@@ -26,9 +29,9 @@ wants it turned into an organized findings document.
    - Any section of the transcript is illegible, cut off, or ambiguous in a way that would
      materially change the findings.
 
-   If 1-3 of these are unclear in a way that would change the output, ask targeted
-   clarifying questions before proceeding — do not guess at material gaps. If the
-   transcript is otherwise clear, proceed without asking.
+   If any of these are unclear in a way that would change the output, ask 1-3 targeted
+   clarifying questions covering the gaps, in a single batch, before proceeding — do not
+   guess at material gaps. If the transcript is otherwise clear, proceed without asking.
 
 3. **Extract findings into the template shape** (see `../../templates/findings-doc.md`):
    - **Pain Points** — problems/frustrations stakeholders described with the current state.

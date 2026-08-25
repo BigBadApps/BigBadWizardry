@@ -19,7 +19,11 @@ input types are supported; a findings document is not required.
 ## Process
 
 1. **Get the process description.** Accept either a findings document or raw text
-   describing a sequence of steps. If neither has been provided, ask for it.
+   describing a sequence of steps. If neither has been provided, ask for it. If the input
+   provided is empty, or does not contain usable process description content (e.g. a
+   blank file, an illegible image, a paste that isn't a process description at all), say
+   so plainly and ask the user to provide it again — do not attempt to produce output
+   from it.
 
 2. **Check for gaps before mapping.** Before producing output, check whether:
    - The step order is clear (what happens first, next, last).
@@ -28,9 +32,9 @@ input types are supported; a findings document is not required.
    - Which actor/role performs each step is identifiable (for swimlane-style attribution
      in the step list).
 
-   If 1-3 of these are unclear in a way that would change the shape of the map, ask
-   targeted clarifying questions before proceeding — do not invent step order, branches,
-   or actors that weren't stated or implied.
+   If any of these are unclear in a way that would change the shape of the map, ask 1-3
+   targeted clarifying questions covering the gaps, in a single batch, before proceeding —
+   do not invent step order, branches, or actors that weren't stated or implied.
 
 3. **Build the process map** using `../../templates/process-map.md`'s shape:
    - **Process Diagram** — a Mermaid `flowchart TD` (or `flowchart LR` if that reads
