@@ -25,12 +25,16 @@ input types are supported; a findings document is not required.
    so plainly and ask the user to provide it again — do not attempt to produce output
    from it.
 
+   A findings document (see `../../templates/findings-doc.md`) has no dedicated process
+   section — reconstruct the step sequence by reading across its Pain Points, Requirements,
+   and Decisions Made sections instead.
+
 2. **Check for gaps before mapping.** Before producing output, check whether:
    - The step order is clear (what happens first, next, last).
    - Any decision points/branches are identified (places where the process forks based
      on a condition).
-   - Which actor/role performs each step is identifiable (for swimlane-style attribution
-     in the step list).
+   - Which actor/role performs each step is identifiable (for actor attribution in the
+     step list).
 
    If any of these are unclear in a way that would change the shape of the map, ask 1-3
    targeted clarifying questions covering the gaps, in a single batch, before proceeding —

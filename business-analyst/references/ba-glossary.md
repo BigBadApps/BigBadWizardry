@@ -13,7 +13,5 @@ rather than redefining these terms.
   [benefit]".
 - **Acceptance criteria** — the specific, testable conditions a user story
   must meet to be considered done, written as Given/When/Then statements.
-- **Swimlane** — a way of grouping process steps by which actor/role performs
-  them, so responsibility is visible at a glance.
 - **Pain point** — a specific problem or frustration a stakeholder describes
   with the current state.

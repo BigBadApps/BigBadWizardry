@@ -26,6 +26,11 @@ supported; a findings document is not required.
    that isn't a requirement at all), say so plainly and ask the user to provide it again —
    do not attempt to produce output from it.
 
+   If a findings document is provided but has no `## Requirements` section (or the section
+   is empty), look for requirement-shaped statements elsewhere in the document (e.g. in
+   Pain Points or Decisions Made) and confirm your reading with the user before writing
+   stories from them.
+
 2. **Check for gaps per requirement before writing stories.** For each requirement, check
    whether it's clear who the actor/role is, what the goal is, and what benefit it serves.
    If any of these are missing or ambiguous for a requirement, ask a targeted clarifying
@@ -46,7 +51,8 @@ supported; a findings document is not required.
 
 5. **Confirm output filename before writing.** Propose a filename (e.g.
    `user-stories-<topic>-<date>.md`) and confirm with the user, then write all stories to
-   one Markdown file, each following `../../templates/user-story.md`'s structure.
+   one Markdown file, starting with a `# User Stories: [Topic]` heading and followed by
+   each story in turn, each following `../../templates/user-story.md`'s structure.
 
 ## Output
 
