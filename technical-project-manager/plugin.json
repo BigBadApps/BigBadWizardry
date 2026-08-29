@@ -1,0 +1,10 @@
+{
+  "name": "technical-project-manager",
+  "description": "Skills that help Technical Project Managers turn raw project updates into structured deliverables: status reports with RAG status, risk/blocker registers, and audience-tailored stakeholder updates.",
+  "version": "0.1.0",
+  "skills": [
+    "skills/tpm-status-report-generator",
+    "skills/tpm-risk-blocker-tracker",
+    "skills/tpm-stakeholder-update-drafter"
+  ]
+}
