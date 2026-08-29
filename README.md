@@ -66,3 +66,7 @@ docs/superpowers/
 ```
 
 Each plugin is built from a spec + implementation plan in `docs/superpowers/`.
+
+## License
+
+MIT — see [`LICENSE`](LICENSE).
